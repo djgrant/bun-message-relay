@@ -1,0 +1,7 @@
+{
+  "name": "websockets-example",
+  "scripts": {
+    "start:client": "bun src/client.ts",
+    "start:server": "bun src/server.ts"
+  }
+}
