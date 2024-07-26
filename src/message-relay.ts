@@ -67,7 +67,6 @@ export class MessageRelay {
   private processPendingMessages() {
     const messagesIterator = this.cache.getPending();
     for (const messages of messagesIterator) {
-      console.log(messages);
       for (const message of messages) {
         this.dispatch(message);
       }
